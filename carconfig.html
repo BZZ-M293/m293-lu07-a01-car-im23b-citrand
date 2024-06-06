@@ -6,9 +6,32 @@
 
 </head>
 <body>
+<main>
 
-<h1>Fahrzeug-Konfigurator</h1>
+  <h1>Fahrzeug-Konfigurator</h1>
+  <form action="https://it.bzz.ch/demo/formdata/index.php">
+    <label for="fahrzeugmodell">Fahrzeug:
+      <select id="fahrzeugmodell" name="Fahrzeugmodell" size="1">
+        <option>BMW XM</option>
+        <option>BMW M8</option>
+        <option>BMW M5</option>
+      </select>
+    </label>
+    <br>
+    <label>Farbe:
+      <input type="radio" id="r" name="Lackfarbe" value="Rot">
+      <label for="r"> Rot</label>
+      <input type="radio" id="b" name="Lackfarbe" value="Blau">
+      <label for="b"> Blau</label>
+      <input type="radio" id="w" name="Lackfarbe" value="Weiss">
+      <label for="w"> Weiss</label>
+      <input type="radio" id="g" name="Lackfarbe" value="Grün">
+      <label for="g"> Grün</label>
+    </label>
+    <br>
+    <button type="submit">Absenden</button>
+  </form>
 
-
+</main>
 </body>
 </html>
